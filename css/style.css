@@ -96,13 +96,20 @@ h2 {
 }
 
 button {
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 70px;
-    font-family: inherit;
-    display: block;
-    width: 100%;
-}      
+  background-color: #4CAF50; /* Set the background color */
+  color: white; /* Set the text color */
+  padding: 12px 24px; /* Set the padding */
+  border: none; /* Remove the border */
+  border-radius: 4px; /* Add rounded corners */
+  font-size: 16px; /* Set the font size */
+  cursor: pointer; /* Change the cursor to a pointer */
+  transition: background-color 0.3s; /* Add a transition effect on hover */
+}
+
+button:hover {
+  background-color: #3e8e41; /* Change the background color on hover */
+}
+    
 
 h3 {
     font-size: 50px;
